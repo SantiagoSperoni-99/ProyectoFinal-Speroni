@@ -3,25 +3,40 @@
     padding: 0;
 }
 
-.headerIndex {
-    background-color: grey;
-    width: 200px;
-    padding: 50px;
-  }
-  
-  nav {
+/* NAVBAR */
+
+  .nav {
     border-bottom: 2px solid #e28090;
     position: sticky;
     top: 0;
     backdrop-filter: blur(2px);
     align-items: center;
+    justify-content: space-around;
   }
   
+  .navbar-collapse {
+    display: flex;
+    align-items: flex-end;
+    justify-content: end;
+  }
+
+  .navbar-nav {
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-around;
+  }
+
+  .navbar-nav li {
+    margin-right: 2rem;
+  }
+
+/* TITULO */
+
   section#titulo {
     flex-flow: column wrap;
     align-items: center;
     justify-content: center;
-    margin: 2rem;
+    margin: 3rem;
     text-align: center;
   }
 
@@ -33,18 +48,25 @@
   section#titulo div h2 {
     font-size: large;
   }
+
   
+/* CATEGORIAS */
+
   div.tituloCat {
     margin: 3rem;
     text-align: center;
     border-bottom: 2px solid #e28090;
   }
-  
+
+/* PRODUCTOS */
+
   .sectionProductos div h2 {
     margin: 3rem;
     text-align: center;
     border-bottom: 2px solid #e28090;
   }
+
+/* CAROUSEL */
   
   div #carouselExampleControls {
     margin: 3rem;
@@ -58,6 +80,29 @@
     width: 100%;
     height: fit-content;
   }
+
+/* FORMULARIO DE CONTRACTO */
+
+.form-group {
+    margin-bottom: 1rem;
+    padding: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+ }
+
+.formCont {
+  margin: 3rem;
+  padding: 1rem;
+  border: #e28090 solid 3px;
+}
+
+.contacto {
+  margin-bottom: 1.5rem;
+
+}
+
+
   
   @media only screen and (min-width: 1024px) {
     .footer {
