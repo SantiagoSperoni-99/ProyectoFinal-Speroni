@@ -157,32 +157,52 @@ footer {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin-top: 3rem;
-    padding: 1rem;
+    margin-top: 1rem;
+    padding: 0.5rem;
 
       }
+
+.footer div {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding: 5px;
+}      
 
 .redes {
   display: flex;
   justify-content: space-around;
   align-items: center;
+  font-size: 25px;
 
 }
 
 .redes a {
-  margin-left: 1rem;
+  margin: 0 1rem;
   color: black;
+  
   
 }
 
 .redes a i {
   width: 30px;
   height: 30px;
+  margin: 0;
 }
 
+.derycon p {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0;
+}
 
-
-  
+.subir p {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0;
+} 
 
 /* ICONO WPP */
 
